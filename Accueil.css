@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo1{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.logo2{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+.bienve{
+    padding-top: 10px;
+}
+.en-tete{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(183, 183, 246), rgb(129, 129, 252), rgb(103, 103, 251));
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+.list{
+    list-style-type: none;
+}
+.list a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.menu :hover a{
+    color: rgb(33, 149, 244);
+}
+header{
+    background-image: url(https://www.scholarshipacademy.org/online/wp-content/uploads/2017/04/first_slide.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 520px;
+}  
+.slogan{
+    position: relative;
+    bottom: 300px;
+    padding-left: 100px;
+   
+}
+.slo1{
+   font-size: 30px;
+   font-family: papyrus;
+   
+}
+.slo2{
+    color: blue;
+    font-family: papyrus; 
+    
+ }
+ .slo3{
+   padding-left: 150px;
+    
+ }
+ .pig{
+    color: blue;
+ }
+ .sir{
+    text-decoration: none;
+    color: blue;
+ }
+.button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 300px;
+    border: 4px rgba(195, 255, 0, 0.89) solid;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.present{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240);
+}
+.pre{
+    margin-right: 50px;
+    line-height: 3em;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+    text-align: center;
+}
+.img1{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+}
+.tous{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+.title2{
+    
+    margin-left: 200px;
+    width: 360px;
+    height: 400px;
+    box-shadow: 5px 5px 6px  rgba(195, 255, 0, 0.89);
+    background-color: rgb(235, 235, 246);
+  
+}
+.title3{
+    margin-right: 200px;
+    width: 360px;
+    height: 400px;
+    box-shadow: 5px 5px 6px  rgba(195, 255, 0, 0.89); 
+    background-color: rgb(235, 235, 246);
+}
+.title4{
+    
+    margin-left: 20px;
+    width: 360px;
+    height: 400px;
+    box-shadow: 5px 5px 6px  rgba(195, 255, 0, 0.89);
+    background-color: rgb(235, 235, 246);
+}
+.title5{
+
+    width: 360px;
+    height: 400px;
+    box-shadow: 5px 5px 6px  rgba(195, 255, 0, 0.89); 
+    background-color: rgb(235, 235, 246);
+}
+.title6{
+   
+    margin-right: 20px;
+    width: 360px;
+    height: 400px;
+    box-shadow: 5px 5px 6px  rgba(195, 255, 0, 0.89); 
+  background-color: rgb(235, 235, 246);
+}
+.etu1{
+    width: 360px;
+    height: 150px;
+}
+.mas{
+   text-align: center;
+   line-height: 30px;
+}
+.mass{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+ }
+
+.lic{
+    text-align: center;
+}
+.case{
+    display: flex;
+    justify-content: space-between;
+}
+.case1{
+    margin-left: 200px;
+    margin-top: 20px
+    
+}
+.case2{
+    margin-right: 200px;
+    margin-top: 20px
+   
+}
+.case3{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+
+}
+.loi{
+    text-align: center;
+}
+.cas{
+    margin-top: 100px;
+    background-color: rgb(194, 194, 236);
+    
+}
+
+/* foot de la page */
+.foot{
+    background-image: linear-gradient(to right, rgb(144, 144, 239), rgb(94, 94, 249), rgb(49, 49, 239));
+    display: flex;
+    justify-content: space-between;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin-top: 100px;
+
+}
+.foot1{
+    margin-left: 50px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.foot2{
+    line-height: 30px;
+    cursor: pointer;
+
+}
+.foot3{
+    margin-right: 50px;
+    line-height: 30px;
+    cursor: pointer;
+
+}
+.fot{
+    padding-bottom: 20px;
+}
+
+
+
+
